@@ -1,0 +1,31 @@
+{
+  "name": "genie-lunch-bot",
+  "version": "1.0.0",
+  "description": "지니 점심조사 봇",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lovelycbm/genie-lunch-bot.git"
+  },
+  "keywords": [
+    "lunch",
+    "genie"
+  ],
+  "author": "bongmun choi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lovelycbm/genie-lunch-bot/issues"
+  },
+  "homepage": "https://github.com/lovelycbm/genie-lunch-bot#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "date-fns": "^2.29.2",
+    "slack-node": "^0.1.8"
+  },
+  "type": "module"
+}
+
