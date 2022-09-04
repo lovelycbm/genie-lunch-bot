@@ -3,7 +3,7 @@ name: Send Message Genie
 on:
   schedule:
     # https://crontab.guru/#0_1_*_*_*
-    - cron: "* * * * *"
+    - cron: "0 4 * * *"
 
   workflow_dispatch:
 
