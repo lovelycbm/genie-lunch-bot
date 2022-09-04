@@ -22,7 +22,7 @@ const send = async () => {
 
   const dayLabel = getDay(date);
   // 일요일 토요일이면 return
-  // if (dayLabel === 0 || dayLabel === 6) return;
+  if (dayLabel === 0 || dayLabel === 6) return;
 
   // if currentTime is friday add two days
   const nextTime = format(
